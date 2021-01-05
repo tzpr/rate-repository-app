@@ -1,6 +1,7 @@
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
 import RepositoryList from './RepositoryList';
+import AppBar from './AppBar';
 import Text from './Text';
 
 const styles = StyleSheet.create({
@@ -13,11 +14,12 @@ const styles = StyleSheet.create({
 const Main = () => { 
   return (
     <View style={styles.container}>
-      <Text>Rate Repository App</Text>
+      {/* <Text>Rate Repository App</Text>
       <Text style={{ paddingBottom: 10 }}>Text with custom style</Text>
       <Text fontWeight="bold" fontSize="subheading">Bold subheading
       </Text>
-      <Text color="primary">Text with primary color</Text>
+      <Text color="primary">Text with primary color</Text> */}
+      <AppBar joo="Daadaa"></AppBar>
       <RepositoryList/>
     </View>
   );
